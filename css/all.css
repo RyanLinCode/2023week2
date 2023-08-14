@@ -1,0 +1,384 @@
+*,
+*::after,
+*::before {
+            box-sizing: border-box;
+}
+
+body {
+            font-family: 'Bruno Ace SC', cursive;
+            font-weight: 400;
+            line-height: 1.5;
+}
+
+img {
+            max-width: 100%;
+            height: auto;
+            vertical-align: middle;
+}
+
+h2 {
+            color: #FFFFFF;
+            font-size: 64px;
+            line-height: 96px;
+            text-transform: uppercase;
+}
+
+p {
+            font-size: 24px;
+            line-height: 36px;
+            text-transform: uppercase;
+}
+
+/*設定超連結顏色*/
+a,
+a:hover,
+a::after,
+a::before {
+            color: inherit;
+            text-decoration: none;
+}
+
+.container {
+            max-width: 1296px;
+            margin: 0 auto;
+}
+
+.d-flex {
+            display: flex;
+}
+
+.align-items-start {
+            align-items: flex-start;
+}
+
+.align-items-end {
+            align-items: flex-end;
+}
+
+.align-items-center {
+            align-items: center;
+}
+
+.justify-content-start {
+            justify-content: start;
+}
+
+.justify-content-end {
+            justify-content: end;
+}
+
+.justify-content-center {
+            justify-content: center;
+}
+
+.justify-content-between {
+            justify-content: space-between;
+}
+
+.justify-content-around {
+            justify-content: space-around;
+}
+
+.justify-content-evenly {
+            justify-content: space-evenly;
+}
+
+.flex-row {
+            flex-direction: row;
+}
+
+.flex-row-reverse {
+            flex-direction: row-reverse;
+}
+
+.flex-column {
+            flex-direction: column;
+}
+
+.flex-wrap {
+            flex-wrap: wrap;
+}
+
+/* 導覽列設定 */
+.header {
+
+            background: #000;
+}
+
+.menu {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            /* align-items: flex-start; */
+            /* flex-wrap: nowrap; */
+}
+
+.menu ul {
+            font-size: 16px;
+            line-height: 24px;
+}
+
+.menu li {
+            color: #D1D1D1;
+            padding-top: 40px;
+            padding-bottom: 24px;
+            /* text-align: -webkit-match-parent; */
+}
+
+
+/* banner設定 */
+.banner {
+            background: #000;
+            max-height: 848px;
+}
+
+
+.bannerText h1 {
+            color: #00FFA3;
+            font-size: 128px;
+            line-height: 192px;
+            text-align: right;
+            text-transform: uppercase;
+            font-weight: bold;
+}
+
+
+/* introduction設定 */
+.introduction {
+            background: #000;
+            padding: 160px 0;
+}
+
+.introductionText {
+            max-width: 526px;
+            color: #FFFFFF;
+}
+
+.pa-ri-24 {
+            padding-right: 24px;
+}
+
+
+.ma-bo-24 {
+            margin-bottom: 24px;
+}
+
+.ma-bo-8 {
+            margin-bottom: 8px;
+}
+
+.ma-ri-24 {
+            margin-right: 24px;
+
+}
+
+/* .introductionText h2 {
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 64px;
+            line-height: 96px;
+}
+
+.introductionText p {
+            font-size: 24px;
+            line-height: 36px;
+            text-transform: uppercase;
+} */
+
+.introductionImg {
+            max-width: 746px;
+
+}
+
+.introductionImg img {
+            padding-left: 24px;
+            max-width: 196px;
+            height: 600px;
+}
+
+.introductionImg img:last-of-type {
+            padding-left: 0px;
+            max-width: 396px;
+            height: 600px;
+}
+
+
+/* about-me設定 */
+.about {
+            background: #fff;
+            height: 740px;
+}
+
+.about .about-me {
+            max-width: 526px;
+            padding: 160px 0;
+}
+
+.about .about-me h2 {
+            color: #000;
+}
+
+
+.aboutCard {
+            max-width: 636px;
+            padding: 206px 0;
+}
+
+.aboutCard p {
+            color: #000;
+            font-size: 20px;
+            line-height: 30px;
+
+}
+
+.aboutCard .title {
+            padding: 16px 16px 0px 16px;
+
+}
+
+.aboutCard .content {
+            padding: 4px 16px 0px 16px;
+
+}
+
+.aboutCard .content_2 {
+            padding: 4px 16px 16px 16px;
+
+}
+
+.card-item {
+            max-width: 306px;
+            height: 148px;
+            border: 1px solid #E3E3E3;
+}
+
+
+
+
+
+/* CONTACT ME設定 */
+.contact-Me {
+            background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+
+            height: 354px;
+}
+
+.contact-title {
+            padding: 127px 0;
+            max-width: 657px;
+}
+
+.contact-title h3 {
+            width: 541px;
+            color: #fff;
+            font-size: 64px;
+            line-height: 96px;
+            padding-right: 16px;
+}
+
+.contact-title img {
+            width: 100px;
+}
+
+.contact-img {
+            max-width: 526px;
+            height: 162px;
+}
+
+
+
+/* # my-Projects */
+.my-Projects {
+            /* max-width: 1296px; */
+            padding: 160px 0;
+}
+
+.my-Projects h2 {
+            color: #000;
+
+}
+
+.projects-title {
+            margin: 0 auto;
+            text-align: center;
+            max-width: 746px;
+}
+
+
+.projects-content {
+            max-height: 530px;
+}
+
+.projects-content img {
+            width: 416px;
+}
+
+.projects-right {
+            max-height: 530px;
+            margin-left: 24px;
+}
+
+.projects-item {
+            max-height: 196px;
+            width: 856px;
+            margin-bottom: 28px;
+}
+
+.projects-item img {
+            width: 196px;
+            height: 196px;
+}
+
+.projects-item .projects-paragraph {
+            margin-left: 24px;
+            max-width: 636px;
+
+}
+
+.projects-item .projects-paragraph button {
+            font-size: 16px;
+            width: 185px;
+            height: 48px;
+            border-radius: 32px;
+            background: #000;
+            color: #fff;
+            margin-top: 76px;
+}
+
+.projects-item .projects-paragraph p {
+            font-size: 16px;
+            height: 72px;
+            line-height: 24px;
+
+}
+
+.projects-item .projects-paragraph img {
+            width: 24px;
+            height: 24px;
+
+}
+
+
+.projects-Img {
+            width: 856px;
+
+}
+
+.projects-Img img {
+            width: 306px;
+            max-height: 306px;
+}
+
+.projects-Img img:last-of-type {
+            width: 526px;
+            max-height: 306px;
+}
+
+
+/* footer 設定 */
+.footer {
+            background: #000;
+            color: #fff;
+            text-align: center;
+            padding: 40px 0;
+}
